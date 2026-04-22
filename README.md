@@ -1,7 +1,7 @@
 <h1 align="center">Awesome Codex Skills</h1>
 
 <p align="center">
-<a href="https://platform.composio.dev/?utm_source=Github&utm_medium=Youtube&utm_campaign=2025-11&utm_content=AwesomeCodexSkills">
+<a href="https://dashboard.composio.dev/login?utm_source=Github&utm_medium=Youtube&utm_campaign=2025-11&utm_content=AwesomeCodexSkills">
 
   <img width="1280" height="640" alt="Composio banner" src="codex_cover_image.png">
 </a>
@@ -187,7 +187,7 @@ PRs welcome. Add real, reusable skills, keep descriptions precise, and include a
 </p>
 
 <p align="center">
-  <a href="https://platform.composio.dev/?utm_source=Github&utm_content=AwesomeCodexSkills">
+  <a href="https://dashboard.composio.dev/login?utm_source=Github&utm_content=AwesomeCodexSkills">
     <img src="https://img.shields.io/badge/Get_Started_Free-4F46E5?style=for-the-badge" alt="Get Started"/>
   </a>
 </p>
