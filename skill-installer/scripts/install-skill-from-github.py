@@ -127,6 +127,12 @@ def _validate_skill_name(name: str) -> None:
 
 def _git_sparse_checkout(repo_url: str, ref: str, paths: list[str], dest_dir: str) -> str:
     repo_dir = os.path.join(dest_dir, "repo")
+
+    def _reset_repo_dir() -> None:
+        if os.path.exists(repo_dir):
+            shutil.rmtree(repo_dir, ignore_errors=True)
+
+    _reset_repo_dir()
     clone_cmd = [
         "git",
         "clone",
@@ -143,6 +149,7 @@ def _git_sparse_checkout(repo_url: str, ref: str, paths: list[str], dest_dir: st
     try:
         _run_git(clone_cmd)
     except InstallError:
+        _reset_repo_dir()
         _run_git(
             [
                 "git",
