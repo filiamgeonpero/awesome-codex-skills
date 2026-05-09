@@ -36,6 +36,9 @@ Apply OpenAI's brand identity and style resources with this skill.
 - **Code/Monospace**: IBM Plex Mono (with Menlo/monospace fallback)
 - **Note**: Fonts should be pre-installed in your environment for best results
 
+> **Personal note**: On macOS, I install Inter via `brew install --cask font-inter` and IBM Plex Mono via
+> `brew install --cask font-ibm-plex-mono`. Saves time hunting down the download links each time.
+
 ## Features
 
 ### Smart Font Application
