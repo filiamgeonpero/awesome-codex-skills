@@ -38,6 +38,9 @@ Apply OpenAI's brand identity and style resources with this skill.
 
 > **Personal note**: On macOS, I install Inter via `brew install --cask font-inter` and IBM Plex Mono via
 > `brew install --cask font-ibm-plex-mono`. Saves time hunting down the download links each time.
+>
+> On Linux (Ubuntu/Debian), you can grab Inter with `sudo apt install fonts-inter` if available,
+> otherwise download from https://rsms.me/inter/ and drop into `~/.local/share/fonts/`, then run `fc-cache -fv`.
 
 ## Features
 
