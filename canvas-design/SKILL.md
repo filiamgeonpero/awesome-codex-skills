@@ -47,11 +47,5 @@ To capture the VISUAL essence, express how the philosophy manifests through:
 - **Avoid redundancy**: Each design aspect should be mentioned once. Avoid repeating points about color theory, spatial relationships, or typographic principles unless adding new depth.
 - **Emphasize craftsmanship REPEATEDLY**: The philosophy MUST stress multiple times that the final work should appear as though it took countless hours to create, was labored over with care, and comes from someone at the absolute top of their field. This framing is essential - repeat phrases like "meticulously crafted," "the product of deep expertise," "painstaking attention," "master-level execution."
 - **Leave creative space**: Remain specific about the aesthetic direction, but concise enough that the next Claude has room to make interpretive choices also at a extremely high level of craftmanship.
-- **Default canvas size**: Unless the user specifies otherwise, default to 1200x1600px for portrait and 1600x1200px for landscape orientations. <!-- personal note: I found A4-ish proportions work better for most use cases than square canvases -->
-
-The philosophy must guide the next version to express ideas VISUALLY, not through text. Information lives in design, not paragraphs.
-
-### PHILOSOPHY EXAMPLES
-
-**"Concrete Poetry"**
-Philosophy: Communication through 
+- **Default canvas size**: Unless the user specifies otherwise, default to 1200x1600px for portrait and 1600x1200px for landscape orientations. <!-- personal note: I found A4-ish proportions work better for most use cases than square canvases. For social media content specifically, 1080x1080px (square) or 1080x1920px (stories) tend to work better. -->
+- **Color palette**: Aim for 3-5 colors maximum in the generated philosophy. I've noticed outputs get muddy when the philosophy allows too many colors. <!-- personal note: limiting palette early leads to much more cohesive final outputs -->
