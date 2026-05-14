@@ -3,9 +3,11 @@ interface:
   short_description: "Build and verify app deep links for Slack and handoffs."
   default_prompt: "Create or validate deep links for Codex/Cursor/VS Code and provide fallbacks for unsupported apps."
   # Personal note: also tested with Windsurf and Zed - both fall back gracefully
-  fallback_behavior: "notify_user"  # options: silent, notify_user, open_browser
+  # Personal note: open_browser is more user-friendly than notify_user for most cases
+  fallback_behavior: "open_browser"  # options: silent, notify_user, open_browser
   supported_apps:
     - codex
     - cursor
     - vscode
     - windsurf  # added: works with fallback
+    - zed  # added: falls back to open_browser as expected
